@@ -9,7 +9,7 @@
 - Product owner (approves each document):
 
 ## Documents
-List the real paths (see the document map in `AGENTS.md`). Write "Not required" for documents that do not apply.
+List the real paths (see the document map in [`AGENTS.md`](AGENTS.md)). Write "Not required" for documents that do not apply.
 
 - Project spec (requirements): `docs/specs/PROJECT_SPEC.md`
 - Feature specs (functional requirements):

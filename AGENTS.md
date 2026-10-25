@@ -26,11 +26,11 @@ If a later document conflicts with an approved spec, the spec wins unless the sp
 
 ## Document map
 
-`PROJECT_CONTEXT.md` lists the project's documents and their paths. Standard locations:
+[`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md) lists the project's documents and their paths. Standard locations:
 
 | Document | Path | Required |
 |---|---|---|
-| Project context | `PROJECT_CONTEXT.md` | Always |
+| Project context | [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md) | Always |
 | Project spec (requirements) | `docs/specs/PROJECT_SPEC.md` | Always |
 | Feature specs (functional requirements) | `docs/specs/FEATURE_SPEC_<name>.md` | For each feature that needs more detail than the project spec |
 | ADRs | `docs/decisions/ADR-<NNN>_<TITLE>.md` | When a decision has real alternatives |

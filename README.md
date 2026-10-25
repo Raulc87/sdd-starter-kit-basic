@@ -11,7 +11,7 @@ A free starter kit for Spec-Driven Development (SDD): it turns an idea into requ
 5. **User stories:** `docs/specs/USER_STORIES.md`, with testable acceptance criteria.
 6. **Sprint plan:** `docs/sprints/SPRINT_001.md`, the first sprint: goal, selected stories and a demonstrable deliverable.
 
-The rules are in `AGENTS.md`. The project's document list lives in `PROJECT_CONTEXT.md`.
+The rules are in [`AGENTS.md`](AGENTS.md). The project's document list lives in [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md).
 
 ## How to start
 
@@ -19,18 +19,18 @@ The rules are in `AGENTS.md`. The project's document list lives in `PROJECT_CONT
 2. Open a Claude Code session on it and run **`/project-kickoff`**. The skill runs discovery with you and proposes each document in order, ending with the Sprint 001 plan. It writes no code.
 3. Review and approve each document before the next one is written.
 
-Without Claude Code, follow the same order by hand with the templates in `docs/` (files ending in `_TEMPLATE.md`).
+Without Claude Code, follow the same order by hand with the templates in [`docs/`](docs/) (files ending in `_TEMPLATE.md`).
 
 ## Templates
 
 | Template | Becomes |
 |---|---|
-| `PROJECT_CONTEXT.md` | Filled in place |
-| `docs/specs/PROJECT_SPEC_TEMPLATE.md` | `docs/specs/PROJECT_SPEC.md` |
-| `docs/specs/FEATURE_SPEC_TEMPLATE.md` | `docs/specs/FEATURE_SPEC_<name>.md` |
+| [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md) | Filled in place |
+| [`docs/specs/PROJECT_SPEC_TEMPLATE.md`](docs/specs/PROJECT_SPEC_TEMPLATE.md) | `docs/specs/PROJECT_SPEC.md` |
+| [`docs/specs/FEATURE_SPEC_TEMPLATE.md`](docs/specs/FEATURE_SPEC_TEMPLATE.md) | `docs/specs/FEATURE_SPEC_<name>.md` |
 | `docs/decisions/ADR_TEMPLATE.md` | `docs/decisions/ADR-<NNN>_<TITLE>.md` |
-| `docs/specs/USER_STORIES_TEMPLATE.md` | `docs/specs/USER_STORIES.md` |
-| `docs/sprints/SPRINT_PLAN_TEMPLATE.md` | `docs/sprints/SPRINT_001.md` |
+| [`docs/specs/USER_STORIES_TEMPLATE.md`](docs/specs/USER_STORIES_TEMPLATE.md) | `docs/specs/USER_STORIES.md` |
+| [`docs/sprints/SPRINT_PLAN_TEMPLATE.md`](docs/sprints/SPRINT_PLAN_TEMPLATE.md) | `docs/sprints/SPRINT_001.md` |
 
 ## License and attribution
 
